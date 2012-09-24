@@ -1,7 +1,9 @@
 golog
 =====
 
-golog provides a convenient API for logging with golang
+golog provides a convenient API for logging with golang.
+
+You can use log level in your program with golog.
 
 
 Useage:
