@@ -46,6 +46,6 @@ func TestFatal(t *testing.T) {
 		log.Warn("This is ", i, "th debug info") // log nothing here
 	}
 	for i := 0; i < 2; i++ {
-		log.Fatalf("This is %dth debug info", i)
+		log.Fatalf("This is %dth debug info", i)	// log.Fatal* will invoke os.Exit(1), so There is only one fatal info logged.
 	}
 }
