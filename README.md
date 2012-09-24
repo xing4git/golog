@@ -7,7 +7,7 @@ You can use log level in your program with golog.
 
 
 Useage:
-======
+=====
 
 ```go
 package main
@@ -47,7 +47,7 @@ If log level is LOGLEVEL_FATAL, only the fatal log string will be logged. And fa
 
 
 LICENSE
-=======
+=====
 
 golog was just a component in uniqush(https://github.com/uniqush/uniqush-push).
 
