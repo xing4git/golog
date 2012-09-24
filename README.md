@@ -41,6 +41,10 @@ func main() {
 
 ```
 
+If log level is LOGLEVEL_DEBUG, all the log string will be logged. 
+
+If log level is LOGLEVEL_FATAL, only the fatal log string will be logged. And fatal logs also cause program to exit.
+
 
 LICENSE
 =======
