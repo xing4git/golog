@@ -24,6 +24,7 @@ func init() {
 		fmt.Printf("err: %s\n", err.Error())
 		os.Exit(1)
 	}
+	// if you want to change LOG LEVEL, you just need to change here.
 	log = golog.NewLogger(file, "golog", golog.LOGLEVEL_DEBUG, golog.FLAG_LstdFlags | golog.FLAG_Lshortfile)
 }
 

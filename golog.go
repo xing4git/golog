@@ -168,7 +168,7 @@ func NewLogger(writer io.Writer, prefix string, logLevel int, flag int) *Logger 
 		ret.writer = writer
 	}
 	ret.prefix = prefix
-	ret.SetLogLevel(logLevel, flag)
+	ret.setLogLevel(logLevel, flag)
 	return ret
 }
 
